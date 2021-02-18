@@ -7,6 +7,7 @@ LABEL Author=sminot@fredhutch.org
 #  - numpy
 #  - interop
 #  - matplotlib
+#  - seaborn
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt update && \
     apt install -y python3 python3-pip
