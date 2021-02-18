@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM quay.io/aptible/ubuntu:18.04
 LABEL Author=sminot@fredhutch.org
 
 # Install
