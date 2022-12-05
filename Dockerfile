@@ -15,7 +15,7 @@ RUN apt update && \
 RUN pip3 install \
     pandas \
     numpy \
-    interop \
+    interop==1.2.0 \
     matplotlib \
     seaborn
     
